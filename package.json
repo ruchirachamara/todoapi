@@ -1,0 +1,32 @@
+{
+    "name": "todoapi",
+    "version": "1.0.0",
+    "description": "API for the todo mobile application",
+    "main": "dist/app.js",
+    "scripts": {
+        "start": "tsc && node dist/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ruchirachamara/todoapi.git"
+    },
+    "author": "Ruchira Chamara",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ruchirachamara/todoapi/issues"
+    },
+    "homepage": "https://github.com/ruchirachamara/todoapi#readme",
+    "devDependencies": {
+        "@types/express": "^4.17.4",
+        "tslint": "^6.1.1",
+        "typescript": "^3.8.3"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "firebase": "^7.13.2",
+        "firebase-admin": "^8.10.0",
+        "multer": "^1.4.2"
+    }
+}
